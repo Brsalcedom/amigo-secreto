@@ -1,9 +1,11 @@
 
-Una aplicación de cli desarrollada en python3 para el sorteo de amigo secreto.
+Una aplicación de cli desarrollada en python 3 para el sorteo de amigo secreto.
 
 ![](/images/main.png)
 
-> Testeado en python 3.10 - Linux
+> Testeado en python 3.10 - Mac OS 12.1 / Arch Linux
+
+---
 
 # Instalación
 
@@ -11,11 +13,17 @@ Una aplicación de cli desarrollada en python3 para el sorteo de amigo secreto.
 git clone https://github.com/Brsalcedom/amigo-secreto --depth 1
 cd amigo-secreto
 pip3 install -r requirements.txt
+```
+Para comenzar solo ejecutar el archivo ```main.py```. Antes de utilizar **llenar los campos del archivo [config.py](/config.py)**.
+
+```
 python3 main.py
 ```
-**Antes de utilizar llenar los campos del archivo [config.py](/config.py)**.
 
-## Enviar correos utilizando GMAIL
+
+
+<details>
+<summary><b>Enviar correos utilizando GMAIL</b></summary>
 
 Para utilizar el servidor stmp de google para el envío de correos, se debe contar con una cuenta de gmail protegida con segundo factor de autenticación (2FA).
 
@@ -42,7 +50,19 @@ Para utilizar el servidor stmp de google para el envío de correos, se debe cont
 
 > Referencia: [support.google.com](https://support.google.com/accounts/answer/185833?hl=es)
 
+</details>
+
+---
+
 # To-do
 
 * Dockerizar
 * Construir como aplicación web
+
+---
+
+<div align="center">
+
+<a href="https://github.com/Brsalcedom/amigo-secreto/blob/main/.github/LICENSE"><img src="https://img.shields.io/github/license/brsalcedom/dotfiles?logo=Github">
+
+</div>
